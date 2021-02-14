@@ -1,0 +1,30 @@
+main {
+    width: 80%;
+    margin: 300px auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+}
+
+input {
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 15px 0;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+li button {
+    float: right;
+    background-color: transparent;
+    border: solid 1px black;
+    border-radius: 360px;
+}

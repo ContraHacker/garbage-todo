@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href= "./styles.css" />
+    <title>Garbage Todo</title>
+</head>
+<body>
+    <main>
+        <h1>Garbage Todo</h1>
+        <form onsubmit = "addTodo(e)">
+            <input type = "text" id = "todoInput" placeholder = "Todo" />
+            <button type = "submit" onclick = "addTodo(event)">+ Add Todo</button>
+        </form>
+        <div class = "container"></div>
+    </main>
+    <script src = "./main.js"></script>
+</body>
+</html>
